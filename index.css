@@ -1,6 +1,7 @@
 body{
-	background-image: url(img/notebook.jpg);
+	background-image: url(img/notebook_rs.jpg);
 	background-size: cover;
+	overflow: hidden;
 }
 
 .top{
@@ -10,4 +11,54 @@ body{
 	margin: 25px;
 	box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.6);
 	font-family: 'Schoolbell', cursive, sans serif;
+}
+
+.startdate{
+	background-image: url(img/paper2.jpg);
+	display: inline-block;
+	text-align: left;
+	padding: 5px 25px;
+	margin: 5px 25px;
+	box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.6);
+	font-family: 'Schoolbell', cursive, sans serif;
+}
+
+#catimg{
+	transform: rotate(10deg);
+}
+
+.links{
+	margin: 25px;
+	padding: 80px 10px;
+	position: relative;
+	left: 20%;
+	font-family: 'Handlee', cursive, sans serif;
+	color: brown;
+	transform: rotate(-10deg);
+	font-size: 2em;
+}
+
+a:link{
+	color: red;
+	background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#ABOUTME{
+	background-image: url(img/paper2.jpg);
+	border-radius: 50%;
+	position: fixed;
+	right: 1em;
+	bottom: 5em;
+	padding: 1em;
 }
