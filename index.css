@@ -1,0 +1,13 @@
+body{
+	background-image: url(img/notebook.jpg);
+	background-size: cover;
+}
+
+.top{
+	background-image: url(img/paper.jpg);
+	text-align: center;
+	padding: 25px;
+	margin: 25px;
+	box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.6);
+	font-family: 'Schoolbell', cursive, sans serif;
+}
