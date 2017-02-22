@@ -1,7 +1,8 @@
 body{
 	background-image: url(img/notebook_rs.jpg);
 	background-size: cover;
-	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 .top{
@@ -28,13 +29,16 @@ body{
 }
 
 .links{
-	margin: 25px;
-	padding: 80px 10px;
+	margin: 0;
+	padding-left: 3em;
+	padding-top: 10em;
 	position: relative;
-	left: 20%;
+	left: 20%;	
+	transform: rotate(-12deg);	
+}
+td{
 	font-family: 'Handlee', cursive, sans serif;
 	color: brown;
-	transform: rotate(-10deg);
 	font-size: 2em;
 }
 
