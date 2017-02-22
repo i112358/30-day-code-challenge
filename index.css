@@ -1,6 +1,8 @@
 body{
-	background-image: url(img/notebook_rs.jpg);
-	background-size: 100%;
+	background-image: url(img/wood.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
 	overflow-x: hidden;
 	overflow-y: scroll;
 	font-size: 100%;
@@ -30,11 +32,12 @@ body{
 }
 
 .links{
+	background-image: url(img/notebook2.png);
+	background-repeat: no-repeat;
+	background-size: 80%;
 	margin: 0;
-	padding-left: 3em;
 	padding-top: 8em;
-	position: relative;
-	left: 20%;	
+	padding-left: 3em;
 	transform: rotate(-11deg);	
 }
 td{
