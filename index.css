@@ -1,8 +1,9 @@
 body{
 	background-image: url(img/notebook_rs.jpg);
-	background-size: cover;
+	background-size: 100%;
 	overflow-x: hidden;
 	overflow-y: scroll;
+	font-size: 100%;
 }
 
 .top{
