@@ -31,10 +31,10 @@ body{
 .links{
 	margin: 0;
 	padding-left: 3em;
-	padding-top: 10em;
+	padding-top: 8em;
 	position: relative;
 	left: 20%;	
-	transform: rotate(-12deg);	
+	transform: rotate(-11deg);	
 }
 td{
 	font-family: 'Handlee', cursive, sans serif;
@@ -66,3 +66,32 @@ a:hover {
 	bottom: 5em;
 	padding: 1em;
 }
+
+.tooltip{
+	position: relative;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+	font-family: 'Reenie Beanie', cursive, sans serif;
+	font-size: 1.5em;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+	top: -5px;
+    right: 105%; 
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+</style>
