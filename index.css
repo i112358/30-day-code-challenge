@@ -6,6 +6,14 @@ body{
 	overflow-x: hidden;
 	overflow-y: scroll;
 	font-size: 100%;
+	position: absolute;
+}
+
+h1{
+	font-size: 5vh;
+}
+h2{
+	font-size: 3.4vh;
 }
 
 .top{
@@ -34,16 +42,21 @@ body{
 .links{
 	background-image: url(img/notebook2.png);
 	background-repeat: no-repeat;
-	background-size: 80%;
-	margin: 0;
-	padding-top: 8em;
-	padding-left: 3em;
-	transform: rotate(-11deg);	
-}
-td{
+	background-size: 100% 100%;
+	width: 70vw;
+	/*position: relative;*/
+	margin-top: 5vh;
+	padding: 5em 5vw 4em 5vw;
 	font-family: 'Handlee', cursive, sans serif;
 	color: brown;
-	font-size: 2em;
+	font-size: 3.4vh;
+	display: inline-block;
+}
+
+.days{
+	display: inline-block;
+	margin-top: 0;
+	padding-left: 4em;
 }
 
 a:link{
