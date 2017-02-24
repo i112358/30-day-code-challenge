@@ -30,7 +30,7 @@ h2{
 	display: inline-block;
 	text-align: left;
 	padding: 5px 25px;
-	margin: 5px 25px;
+	margin: 5px 25px 25px 25px;
 	box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.6);
 	font-family: 'Schoolbell', cursive, sans serif;
 }
@@ -41,22 +41,21 @@ h2{
 
 .links{
 	background-image: url(img/notebook2.png);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	width: 70vw;
-	/*position: relative;*/
-	margin-top: 5vh;
-	padding: 5em 5vw 4em 5vw;
+	background-size: cover;
+	border-radius: 5px;
+	margin: auto;
+	width: 70%;
+	text-align:center;
 	font-family: 'Handlee', cursive, sans serif;
 	color: brown;
 	font-size: 3.4vh;
-	display: inline-block;
+	padding: 5em 2em 4em 0;
+	/*display: inline-block;*/
 }
 
 .days{
 	display: inline-block;
-	margin-top: 0;
-	padding-left: 4em;
+	margin: 0;
 }
 
 a:link{
@@ -65,7 +64,7 @@ a:link{
     text-decoration: none;
 }
 a:visited {
-    color: pink;
+    color: lightcoral;
     background-color: transparent;
     text-decoration: none;
 }
