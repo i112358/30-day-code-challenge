@@ -2,21 +2,69 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="day2.js"></script>
 <link rel="stylesheet" type="text/css" href="day2.css"/>
 <link href="https://fonts.googleapis.com/css?family=Alegreya|Gloria+Hallelujah|Nunito+Sans|Quattrocento" rel="stylesheet">
 <title>TRPG Dice</title>
+
 </head>
 <body>
+
 <div class="top"><h1>Welcome to TRPG Dice</h1></div>
 <div class="intro"><h3>What is TRPG (Tabletop role playing game)?</h3></div>
 <div class="intro">Definition from Wikipedia:
 <blockquote cite="https://en.wikipedia.org/wiki/Tabletop_role-playing_game">A tabletop role-playing game (or pen-and-paper role-playing game) is a form of role-playing game (RPG) in which the participants describe their characters' actions through speech. Participants determine the actions of their characters based on their characterization, and the actions succeed or fail according to a formal system of rules and guidelines. Within the rules, players have the freedom to improvise; their choices shape the direction and outcome of the game.</blockquote></div>
 <div class="intro">Famous TRPGs include "Dungeons & Dragons", "Call of Cthulhu"(my personal favorite), "Paranoia" and etc.</div>
 <div class="intro">In the process of gameplay, dice are used a way to determine if the players action were successful and has a great affect on the direction of the story. This website is a place that has most of the dice that are used. Have fun!</div>
+<br/>
+<div class="intro">Click on dice to roll:</div>
 
-<div class="dice">
-	<img>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-4 dice">
+			<img id="D6" src="img/dice_set/dice_10.png" />
+			<div class="result">1D6 = <div id="result1d6" class="result"></div></div>
+		</div>
+		<div class="col-md-4 dice">
+			<img id="D10" src="img/dice_set/dice_101.png" />
+			<div class="result">1D10 = <div id="result1d10" class="result"></div></div>
+		</div>
+		<div class="col-md-4 dice">
+			<img id="D100_1" src="img/dice_set/dice_101.png" />
+			<img id="D100_2" src="img/dice_set/dice_101.png" /><br/>
+			<div class="result">1D100 = <div id="result1d100" class="result"></div></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4 dice">
+			<img id="D4" src="img/dice_set/dice_10.png" />
+			<div class="result">1D4 = <div id="result1d4" class="result"></div></div>
+		</div>
+		<div class="col-md-4 dice">
+			<img id="D3" src="img/dice_set/dice_10.png" />
+			<div class="result">1D3 = <div id="result1d3" class="result"></div></div>
+		</div>
+		<div class="col-md-4 dice">
+			<img id="D20_1" src="img/dice_set/dice_101.png" />
+			<img id="D20_2" src="img/dice_set/dice_101.png" /><br/>
+			<div class="result">1D20 = <div id="result1d20" class="result"></div></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 dice">
+			<input type="text" id="in1" value=""> D <input type="text" id="in2" value="">
+			<button id="rollbutton" style="background-color: black;">Roll!</button>
+			= <div id="custom" class="result"></div>
+		</div>
+	</div>
 </div>
 
+<br/>
+<br/>
 </body>
 </html>
