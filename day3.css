@@ -1,0 +1,106 @@
+body{
+  background-color: #3a424f;
+  color: white;
+  font-family: 'Raleway', serif;
+}
+
+.intro{
+  font-size: 1.5em;
+  padding: 1.5em;
+}
+
+.row{
+  padding: 20px 0;
+}
+
+button{
+  width: 8em;
+  height: 8em;
+  border-style: solid;
+  border-width: 2px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+#pYellow{
+  background-color: #F3CF55;
+}
+
+#pDogwood{
+  background-color: #EDCDC2;
+}
+
+#hazelnut{
+  background-color: #CFB095;
+}
+
+#iParadise{
+  background-color: #95DEE3;
+}
+
+#greenery{
+  background-color: #88B04B;
+}
+
+#flame{
+  background-color: #F2552C;
+}
+
+#pYarrow{
+  background-color: #CE3175;
+}
+
+#niagara{
+  background-color: #5487A4;
+}
+
+#kale{
+  background-color: #5A7247;
+}
+
+#lBlue{
+  background-color: #004B8D;
+}
+
+a:hover{
+  background-color: white;
+  color: black;
+}
+
+/*Set bootstrap grid for 5 equal columns*/
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
