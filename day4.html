@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <title>Travel the world</title>
+  <link rel="stylesheet" type="text/css" href="day4.css" />
+  <script src="day4.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+</head>
+
+<body onload="showSlides(1)">
+  <div class="slideshow-container">
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+      <img src="img/travel/new-york.jpg" style="width:100%">
+      <div class="text"><b>New York</b></div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="img/travel/mountains.jpg" style="width:100%">
+      <div class="text"><b>Random Mountains</b></div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="img/travel/snow.jpg" style="width:100%">
+      <div class="text"><b>Norway</b></div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 5</div>
+      <img src="img/travel/czech-prague.jpg" style="width:100%">
+      <div class="text"><b>Prague</b></div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="img/travel/prairie.jpg" style="width:100%">
+      <div class="text"><b>Random River</b></div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="img/travel/neuschwanstein.jpg" style="width:100%">
+      <div class="text"><b>Neuschwanstein Castle</b></div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <div class="dots">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+  </div>
+
+</body>
+</html>
