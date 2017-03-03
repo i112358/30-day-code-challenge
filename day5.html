@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <title>To-do list</title>
+  <link rel="stylesheet" type="text/css" href="day5.css" />
+  <script src="day5.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+</head>
+<body>
+  <div class="intro">
+    Welcome to your to-do list.</br>
+    Type in your to-do item and click "Add" to add to the list.</br>
+    Click on item to check it as done (can be undone by clicking a second time).</br>
+    CLick on "x" button to remove item from the list.
+  </div>
+  <div class="todoContainer">
+    <div id="TOP" class="header">
+      <h2>My To Do List</h2>
+      <input type="text" id="myInput" placeholder="What you need to do">
+      <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+    <ul id="todoList" style="list-style-type:none">
+      <li>Go running</li>
+      <li>Pay bills</li>
+      <li>Call mom</li>
+      <li>Buy eggs</li>
+      <li>Read a book</li>
+      <li>Do the laundry</li>
+    </ul>
+  </div>
+</body>
+</html>
