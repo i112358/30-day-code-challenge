@@ -39,8 +39,8 @@ h4{
 
 /* Style the buttons that are used to open and close the accordion panel */
 button.question {
-    background-color: #eee;
-    color: #444;
+    background-color: rgba(100,100,100,0.6);
+    color: #222;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -53,7 +53,7 @@ button.question {
 /*add show at the end of question*/
 button.question::after{
   content: "show";
-  color: #777;
+  color: #444;
   float: right;
   margin-left: 5px;
 }
